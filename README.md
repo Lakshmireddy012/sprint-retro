@@ -1,16 +1,44 @@
-# React + Vite
+# Sprint Retro Board
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real-time Sprint Retrospective board built with **React (Vite)** and **Supabase**, allowing teams to create rooms, add feedback, and collaborate efficiently during retrospectives.  
 
-Currently, two official plugins are available:
+The live website can be accessed here: [https://freesprintretro.web.app/](https://freesprintretro.web.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Create and join retrospective rooms.
+- Secure room access with hashed passwords.
+- Unique shareable URLs for rooms.
+- Add, edit, and delete sticky notes in real-time.
+- Real-time updates using Supabase Realtime.
+- Responsive UI for desktop and mobile devices.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technology Stack
+
+- **Frontend:** React with Vite, Tailwind CSS  
+- **Backend / Database:** Supabase (PostgreSQL, Functions, Realtime)  
+- **Authentication:** Supabase Auth for secure room access  
+- **Hosting:** Firebase Hosting  
+
+---
+
+## Project Setup
+
+### Prerequisites
+
+- Node.js (v18+ recommended)
+- npm or yarn
+- Supabase account
+- Firebase account (for hosting)
+
+---
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Lakshmireddy012/sprint-retro.git
+cd sprint-retro
